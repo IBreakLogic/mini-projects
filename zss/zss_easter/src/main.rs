@@ -74,7 +74,7 @@ fn main() {
         0,
     ];
 
-    println!("This will take an estimated {} seconds", 0.000063576498 * runs as f64);
+    println!("This will take an estimated {} seconds", 0.000063576498 * runs as f64);// Based on my specs so might be really out for some really old/new stuff
 
     let start = std::time::Instant::now();
 
